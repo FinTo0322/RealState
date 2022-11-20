@@ -23,3 +23,11 @@ header{
     background-size: 100% 100%;
     height: 50em;
 }
+
+#Properties-bg{
+  background-image: url('/resources/bg-properties.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    height: 50em;
+}
