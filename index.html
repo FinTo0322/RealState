@@ -8,6 +8,8 @@
         <!-- tittle -->
         <title>Distric Inc.| You'll be safe here</title>
 
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
         <!-- Favicon -->
         <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
@@ -40,16 +42,19 @@
                     <div class="offcanvas-body">
                       <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 text-center">
                         <li class="nav-item">
-                          <a class="nav-link active" aria-current="page" href="#">About</a>
+                          <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#">Story</a>
+                          <a class="nav-link" href="#">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">ZHeroes</a>
+                          <a class="nav-link" href="#">Properties</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Learn More</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="#">Media</a>
+                            <a class="nav-link" href="#">Contact Us</a>
                           </li>
                       </ul>
                     </div>
@@ -64,89 +69,7 @@
                   </div>
                   </div>
         </header>
-
-
-        <section id="aa-advance-search">
-          <div class="container">
-            <div class="aa-advance-search-area">
-              <div class="form">
-               <div class="aa-advance-search-top">
-                  <div class="row">
-                    <div class="col-md-4">
-                      <div class="aa-single-advance-search">
-                        <input type="text" placeholder="Type Your Location">
-                      </div>
-                    </div>
-                    <div class="col-md-2">
-                      <div class="aa-single-advance-search">
-                        <select>
-                         <option value="0" selected>Category</option>
-                          <option value="1">Flat</option>
-                          <option value="2">Land</option>
-                          <option value="3">Plot</option>
-                          <option value="4">Commercial</option>
-                        </select>
-                      </div>
-                    </div>
-                    <div class="col-md-2">
-                       <div class="aa-single-advance-search">
-                        <select>
-                          <option value="0" selected>Type</option>
-                          <option value="1">Flat</option>
-                          <option value="2">Land</option>
-                          <option value="3">Plot</option>
-                          <option value="4">Commercial</option>
-                        </select>
-                    </div>
-                    </div>
-                    <div class="col-md-2">
-                       <div class="aa-single-advance-search">
-                        <select>
-                          <option value="0" selected>Type</option>
-                          <option value="1">Flat</option>
-                          <option value="2">Land</option>
-                          <option value="3">Plot</option>
-                          <option value="4">Commercial</option>
-                        </select>
-                    </div>
-                    </div>
-                    <div class="col-md-2">
-                      <div class="aa-single-advance-search">
-                        <input class="aa-search-btn" type="submit" value="Search">
-                      </div>
-                    </div>
-                  </div>
-                </div>
-               <div class="aa-advance-search-bottom">
-                 <div class="row">
-                  <div class="col-md-6">
-                    <div class="aa-single-filter-search">
-                      <span>AREA (SQ)</span>
-                      <span>FROM</span>
-                      <span id="skip-value-lower" class="example-val">30.00</span>
-                      <span>TO</span>
-                      <span id="skip-value-upper" class="example-val">100.00</span>
-                      <div id="aa-sqrfeet-range" class="noUi-target noUi-ltr noUi-horizontal noUi-background">
-                      </div>                  
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="aa-single-filter-search">
-                      <span>PRICE ($)</span>
-                      <span>FROM</span>
-                      <span id="skip-value-lower2" class="example-val">30.00</span>
-                      <span>TO</span>
-                      <span id="skip-value-upper2" class="example-val">100.00</span>
-                      <div id="aa-price-range" class="noUi-target noUi-ltr noUi-horizontal noUi-background">
-                      </div>      
-                    </div>
-                  </div>
-                </div>  
-               </div>
-              </div>
-            </div>
-          </div>
-        </section>
+        <div class="p-3 m-3 bg-primary text-white rounded" id="toTop" style="position: fixed; right: 0px; bottom: 0px; z-index: 8000; display: block;"><div style="width: 0px; height: 0px; border-width: 0px 10px 20px; border-top-style: initial; border-top-color: initial; border-bottom-style: solid; border-bottom-color: rgb(255, 255, 255); border-left-style: solid; border-left-color: transparent; border-right-style: solid; border-right-color: transparent;"></div></div>
       
         
 
@@ -154,33 +77,108 @@
           <section>
             <div class="container-fluid">
               <div class="row">
-                <div class="col-8">
-                  <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                      <li class="list-group-item">An item</li>
-                      <li class="list-group-item">A second item</li>
-                      <li class="list-group-item">A third item</li>
-                    </ul>
-                    <div class="card-body">
-                      <a href="#" class="card-link">Card link</a>
-                      <a href="#" class="card-link">Another link</a>
-                    </div>
+                <div class="text-center p-5">
+                  <h1>Most Recommended Houses</h1>
+                </div>
+                <div class="card m-5" style="width: 18rem;">
+                  <img src="resources/img1.jpg" class="card-img-top" alt="House 1">
+                  <div class="card-body">
+                    <h1 class="card-title">Tri Calista</h1>
+                    <p class="card-text">This unit has a slightly smaller lot area compared to the Dual Calista , but it still features a small garden space for you to enjoy.</p>
+                    <a href="#" class="btn btn-primary m-5">Learn More →</a>
+                  </div>
+                </div>
+                <div class="card m-5 text-center" style="width: 18rem;">
+                  <img src="resources/img2.jpg" class="card-img-top" alt="House 1" style="height: 20.5em;">
+                  <div class="card-body">
+                    <h1 class="card-title">Dual Calista</h1>
+                    <p class="card-text">Who knew you could get TWO houses in ONE? Our Calista Pair Unit gives you the option to combine two adjacent units to form one BIG unit!.</p>
+                    <a href="#" class="btn btn-primary m-5">Learn More →</a>
+                  </div>
+                </div>
+                <div class="card m-5 text-center" style="width: 18rem;">
+                  <img src="resources/img3.jpg" class="card-img-top" alt="House 1" style="height: 20.5em;">
+                  <div class="card-body">
+                    <h1 class="card-title">Zunna</h1>
+                    <p class="card-text">If you want  a home separate from others then get our Unna model. Unlike the Calista units, the Zunna is a single-attached model which means it stands on its own and only shares a single firewall with the neighboring house.</p>
+                    <a href="#" class="btn btn-primary m-5">Learn More →</a>
+                  </div>
+                </div>
+                <div class="card m-5 text-center" style="width: 18rem;">
+                  <img src="resources/img4.jpg" class="card-img-top" alt="House 1" style="height: 20.5em;">
+                  <div class="card-body">
+                    <h1 class="card-title">Brega</h1>
+                    <p class="card-text">This house model is the perfect home for those who want one big open space. A one-storey house,</p>
+                    <a href="#" class="btn btn-primary m-5">Learn More →</a>
+                  </div>
+                </div>
+              </div>
+              </div>
+          </section>
+
+
+          <!-- Know More -->
+          <section id="background-2">
+            <div class="text-center text-white pt-5">
+              <h1>Know more about Distric Inc.</h1>
+              <p>Before you choose your new home</p>
+              <p>let us introduce ourselve's so we can gain your trust</p>
+              <div class="pt-5">
+              <a href="#" class="btn btn-primary">Know more →</a>
+            </div>
+          </div>
+          </section>
+
+          <!-- Contact Us -->
+          <section class="m-5" style="height: 30em;">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-6" style="margin: auto">
+                  <img src="icon/logo.png" alt="logo" style="width: auto; height:10em">
+                  <h1>Owning a Home is Convenient and easy.</h1>
+                    <p>Book an appointment and we will see you</p>
+                    <p>You can also reach us through:</p>
+                    <p><i class="fa-regular fa-phone"></i><strong>(02)8 814-9112</strong></p>
+                    <p><i class="fa-regular fa-mobile"></i><strong>(63)928 985 5889</strong></p>
+                    <p><i class="fa-regular fa-envelope"></i><strong>ask@distric.com</strong></p>
+                </div>
+                <div class="col-6 bg-info bg-opacity-50 rounded" id="contactForm" style="margin: auto; height: 30em;">
+                  <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" />
+                  </div>
+                  <div class="mb-3">
+                    <label class="form-label" for="emailAddress">Email Address</label>
+                    <input type="email" class="form-control" id="emailAddress" />
+                  </div>
+                  <div class="mb-3">
+                    <label class="form-label" for="Message">Message</label>
+                    <textarea class="form-control" id="message" style="height: 10rem;"></textarea>
+                  </div>
+                  <div class="d-grid">
+                    <button class="btn btn-primary btn-lg" type="submit">Submit</button>
                   </div>
                 </div>
               </div>
             </div>
           </section>
-
       </main>
 
 
-        <footer>
-
+        <footer class="bg-dark text-white">
+          <div class="container-fluid">
+            <div class="row">
+          <div class="col-3" style="margin: auto">
+            <img src="icon/logo.png" alt="logo" style="width: auto; height:10em">
+              <p><i class="fa-regular fa-phone"></i><strong>(02)8 814-9112</strong></p>
+              <p><i class="fa-regular fa-mobile"></i><strong>(63)928 985 5889</strong></p>
+              <p><i class="fa-regular fa-envelope"></i><strong>ask@distric.com</strong></p>
+          </div>
+          <div class="col-3" style="margin: auto">
+            <p>Disclaimer: All official matters pertaining to Distric Inc. Are only use for school project and no intention to use it on commercial. All of the image in this website is from <a href="pexels.com">pexels.com</a> number and email is just a randomize number so please dont contact it.</p>
+          </div>
+        </div>
+      </div>
         </footer>
 
         <script src="/bootstrap-extension-5.2.1/bootstrap-extension-5.2.1/js/bootstrap-extension.js"></script>
