@@ -76,11 +76,11 @@
           <!-- Features-->
           <section id="features">
             <div class="container-fluid">
-              <div class="row">
+              <div class="row d-flex justify-content-center">
                 <div class="text-center p-5">
                   <h1>Most Recommended Houses</h1>
                 </div>
-                <div class="card m-5" style="width: 18rem;">
+                <div class="card m-5 " style="width: 18rem;">
                   <img src="resources/img1.jpg" class="card-img-top" alt="House 1">
                   <div class="card-body">
                     <h1 class="card-title">Tri Calista</h1>
@@ -131,49 +131,39 @@
 
           <!-- Contact Us -->
           <section class="m-5 p-2" >
-            <div class="container">
+            <div class="container-fluid">
               <div class="row">
                 <div class="col text-center">
                   <img src="icon/logo.png" alt="logo" style="width: auto; height:10em">
                   <h1>Owning a Home is Convenient and easy.</h1>
-                    <p>Book an appointment and we will see you</p>
+                    <p>Contact us and set an appointment and we will see you!</p>
                     <p>You can also reach us through:</p>
                     <p><i class="fa-regular fa-phone"></i><strong>(02)8 814-9112</strong></p>
                     <p><i class="fa-regular fa-mobile"></i><strong>(63)928 985 5889</strong></p>
                     <p><i class="fa-regular fa-envelope"></i><strong>ask@distric.com</strong></p>
                 </div>
-                <div class="col bg-info bg-opacity-50 rounded" id="contactForm" style=" height: 30em;">
+                <div class="col bg-info bg-opacity-50 rounded" id="contactForm" style="height: 33em;">
+                    <form>
                   <div class="mb-3">
                     <label for="name" class="form-label">Name</label>
-                    <input type="text" class="form-control" id="name" />
+                    <input type="text" class="form-control" id="name" required />
                   </div>
                   <div class="mb-3">
                     <label class="form-label" for="emailAddress">Email Address</label>
-                    <input type="email" class="form-control" id="emailAddress" />
+                    <input type="email" class="form-control" id="emailAddress"  required/>
+                  </div>
+                  <div class="mb-3">
+                    <label class="form-label" for="phoneNumber">Phone Number</label>
+                    <input type="tel" class="form-control" name="phone" id="phoneNumber" pattern="[0-9]+" required/>
                   </div>
                   <div class="mb-3">
                     <label class="form-label" for="Message">Message</label>
-                    <textarea class="form-control" id="message" style="height: 10rem;"></textarea>
+                    <textarea class="form-control" id="message" style="height: 10rem;" required></textarea>
                   </div>
-                  <!-- Modal -->
                   <div class="d-grid">
-                    <button class="btn btn-primary btn-lg" type="submit" data-bs-toggle="modal" data-bs-target="#exampleModal">Submit</button>
-                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                      <div class="modal-dialog">
-                        <div class="modal-content">
-                          <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="exampleModalLabel">Thank you</h1>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                          </div>
-                          <div class="modal-body">
-                            <h5>we will see you soon !</h5>
-                          </div>
-                          <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                          </div>
-                        </div>
-                      </div>
+                    <button class="btn btn-primary" type="submit">Send Inquiry!</button>
                     </div>
+                </form>
                   </div>
                 </div>
               </div>
